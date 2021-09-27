@@ -1,0 +1,26 @@
+python3 json_parser.py -f data.json
+Total 0 records found.
+Total 0 records matched.
+
+
+json_parser.py -f data.json status
+id: vmIGIGNrG0x7 status: INACTIVE
+id: hrTKBnilG0x7 status: ACTIVE
+Total 2 records found.
+Total 0 records matched.
+
+
+python3 json_parser.py -f data.json status ACT
+id: hrTKBnilG0x7 status: ACTIVE
+Total 2 records found.
+Total 1 records matched.
+
+
+python3 json_parser.py -f data.json status INAC
+id: vmIGIGNrG0x7 status: INACTIVE
+Total 2 records found.
+Total 1 records matched.
+
+python3 json_parser.py -f data.json status abcd
+Total 2 records found.
+Total 0 records matched.
