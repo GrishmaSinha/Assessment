@@ -1,7 +1,7 @@
 # Assessment
-*json_parser.py..
+* json_parser.py..
 required python script
-*data.json..
+* data.json..
 sample input file for the json blob
-*sample_output.txt..
+* sample_output.txt..
 output for some of the test cases.
